@@ -28,7 +28,7 @@ CNN-based
 Cortical surface extraction 
 Morphometry 
 
-Statistics: First stat-image per individual then analyis  
+Statistics: First stat-image per individual then analysis  
 
 fMRI (GLM, connectivity)
 
