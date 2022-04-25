@@ -39,6 +39,7 @@ Individual PMs -> voxel-based group statistics (different groups, co-variates, r
 Day 1
 9-11:00
 Start - 15 min
+Present as pipeline
 Intro - 30 min
 Break - 10 min
 Pre-processing intra-subject coregistration - 1 h 00 min
@@ -50,6 +51,7 @@ Present: (time-)series-specific adaptations - fMRI + dMRI (slice-timing, eddy cu
 
 Day 2
 9:00-11:30
+Present as pipeline
 Neuro-anatomy - 30 min
 Segmentation + stereotactic space - 45 min
 Break - 10 min
@@ -60,10 +62,11 @@ Individual maps - 60 min
 Lunch - 1h
  
 12:30-14:00
-Connectivity
+Connectivity - 15 min teaser?
   - maps
   - network
-Group statistics of the individual maps (& networks?)
+
+Group statistics of the individual maps
 
 Application to data - anatomic + fMRI + dMRI
 
