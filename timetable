@@ -1,3 +1,10 @@
+Introduction (with a light touch)
+
+  - MRI acquisition, its parameters, and the different results
+  - gradient & spin echo?
+  - k-space (what is it, how is it filled (in a simple case))
+  - reconstruction (only the idea with inverse Fourier)
+
 Pre-processing
 
   - inter subject co-registration
