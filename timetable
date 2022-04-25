@@ -1,0 +1,44 @@
+Pre-processing
+
+  - inter subject co-registration
+    - linear and nonlinear
+    - metrics CC & MI
+    - how does this simplify to intra-subject?
+
+  - MRI (time-)series preprocessing
+    - fMRI & dMRI
+    - motion correction (with references to co-reg; rigid w CC or GC)
+    - fMRI specific: slice-timing
+    - dMRI specific: eddy current correction
+
+    - how does the process look like (when using the tools presented earlier)
+       - show with images & videos
+
+Processing to produce parametric maps from the data
+
+  - time-series analyses -> activation maps; ICA-maps
+  - DTI fitting -> FA, MD, ...
+
+Analyses
+
+Connectivity - functional (network of coehrent something) + diffusion (tractographic projection of local orientation distributions
+
+Statistics
+
+Individual fMRI data -> individual parametric map(s)
+
+Individual PMs -> voxel-based group statistics (different groups, co-variates, repeated-measures,)
+
+9-11:30
+Intro
+Pre-prosessointi yleisesti
+
+12:30-14:00
+Pre-prosessointi perusteet
+  - korekisteröinti
+  - sarjaspesifit tehtävät
+
+14:15-16:00
+Perus-prosessointi
+Edellisen applikaatiot dataan - anatominen + fMRI + dMRI
+
