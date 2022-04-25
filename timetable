@@ -50,6 +50,11 @@ Present: (time-)series-specific adaptations - fMRI + dMRI (slice-timing, eddy cu
 
 Day 2
 9-
-Perus-prosessointi
-Edellisen applikaatiot dataan - anatominen + fMRI + dMRI
+Neuro-anatomy
+Segmentation + stereotactic space
+Individual maps
+  - how to produce
+Group statistics of the individual maps
+
+Application to data - anatomic + fMRI + dMRI
 
