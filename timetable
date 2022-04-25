@@ -37,13 +37,13 @@ Individual fMRI data -> individual parametric map(s)
 Individual PMs -> voxel-based group statistics (different groups, co-variates, repeated-measures,)
 
 9-11:30
-Intro
-Pre-processing intra-subject coregistration
+Start - 15 min
+Intro - 30 min
+Break - 10 min
+Pre-processing intra-subject coregistration - 1 h 30 min
 
 12:30-14:00
-Pre-prosessointi perusteet
-  - korekisteröinti
-  - sarjaspesifit tehtävät
+pre-processing - series-specific adaptations
 
 14:15-16:00
 Perus-prosessointi
