@@ -50,11 +50,15 @@ Present: (time-)series-specific adaptations - fMRI + dMRI (slice-timing, eddy cu
 
 Day 2
 9-
-Neuro-anatomy
+Neuro-anatomy - 30 min
 Segmentation + stereotactic space
 Individual maps
-  - how to produce
-Group statistics of the individual maps
+  - how to produce dMRI maps
+  - how to produce fMRI maps
+Connectivity
+  - maps
+  - network
+Group statistics of the individual maps (& networks?)
 
 Application to data - anatomic + fMRI + dMRI
 
