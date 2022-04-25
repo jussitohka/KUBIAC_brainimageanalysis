@@ -14,7 +14,7 @@ Registration:
 Intra-subject registration
 Concept  of stereotactic space
 Registration to stereotactic space
-Registration algorithms (cost-functions, transforms, optimization, interpolation)
+Registration algorithms (cost-functions, transforms, optimization, interpolation) - cross correlation (same to same) and mutual information
 Point-based registration
 
 Basics of neuroanatomy  (mainly where to look for more information)
