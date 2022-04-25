@@ -21,11 +21,11 @@ Pre-processing
     - how does the process look like (when using the tools presented earlier)
        - show with images & videos
 
-Processing to produce parametric maps from the data
-
   - time-series analyses -> activation maps; ICA-maps
   - DTI fitting -> FA, MD, ...
 
+
+Processing to produce parametric maps from the data
 Analyses
 
 Connectivity - functional (network of coehrent something) + diffusion (tractographic projection of local orientation distributions
@@ -38,7 +38,7 @@ Individual PMs -> voxel-based group statistics (different groups, co-variates, r
 
 9-11:30
 Intro
-Pre-prosessointi yleisesti
+Pre-processing intra-subject coregistration
 
 12:30-14:00
 Pre-prosessointi perusteet
