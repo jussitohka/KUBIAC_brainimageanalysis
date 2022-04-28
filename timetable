@@ -7,6 +7,8 @@ Introduction (with a light touch)
 
 Pre-processing
 
+  - show the whole pre-processing pipeline here
+
   - inter subject co-registration
     - linear and nonlinear
       - rigid - 6 parameters, 3 translation, 3 rotation
@@ -45,11 +47,16 @@ Pre-processing
       - to improve SNR in the voxels
       - should not be used if ROIs used
 
+  - show the whole pre-processing pipeline here
     - how does the process look like (when using the tools presented earlier)
        - show with images & videos
+       - voxel time-series before and after the process?
 
   - time-series analyses -> activation maps; ICA-maps
   - DTI fitting -> FA, MD, ...
+    - tensor model - ellipsoid
+    - eigen decomposition -> eigenvalues and vectors
+    - eigenvalues -> parametric maps FA, MD show these
 
 
 Processing to produce parametric maps from the data
