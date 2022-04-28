@@ -45,6 +45,7 @@ Pre-processing
     
     - smoothing
       - to improve SNR in the voxels
+      - gaussian kernel -> distance-weighted average
       - should not be used if ROIs used
 
   - show the whole pre-processing pipeline here
