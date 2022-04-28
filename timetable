@@ -53,6 +53,7 @@ Pre-processing
        - show with images & videos
        - voxel time-series before and after the process?
 
+Processing to produce parametric maps from the data
   - time-series analyses -> activation maps; ICA-maps
   - DTI fitting -> FA, MD, ...
     - tensor model - ellipsoid
@@ -60,7 +61,6 @@ Pre-processing
     - eigenvalues -> parametric maps FA, MD show these
 
 
-Processing to produce parametric maps from the data
 Analyses
 
 Connectivity - functional (network of coehrent something) + diffusion (tractographic projection of local orientation distributions
@@ -69,7 +69,7 @@ Statistics
 
 Individual fMRI data -> individual parametric map(s)
 
-Individual PMs -> voxel-based group statistics (different groups, co-variates, repeated-measures,)
+Individual ParaMaps -> voxel-based group statistics (different groups, co-variates, repeated-measures,)
 
 Day 1 - May 17th
 9-11:00
