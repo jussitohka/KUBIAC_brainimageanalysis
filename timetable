@@ -27,9 +27,23 @@ Pre-processing
 
   - MRI (time-)series preprocessing
     - fMRI & dMRI
-    - motion correction (with references to co-reg; rigid w CC or GC)
+      - series of 3D volumes
+      - fMRI: blood oxygen-induced changes in the time-series
+      - dMRI: diffusion sensitizing gradient-induced differences in the volumes
+      - show in video
+    - if the series contain subject motion, voxel (time-)series are not reliable
+    - motion correction (with references to co-reg; rigid w CC-type metric)
+      - rigid co-reg if no acquisition-induced distortions
+      - video of pre and post
     - fMRI specific: slice-timing
+      - 2D acquisitions - if slices are 
     - dMRI specific: eddy current correction
+      - gradient changes induce eddy currents that can be corrected with specialiced algorigthms
+      - any way to show the distortions?
+    
+    - smoothing
+      - to improve SNR in the voxels
+      - should not be used if ROIs used
 
     - how does the process look like (when using the tools presented earlier)
        - show with images & videos
