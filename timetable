@@ -9,8 +9,21 @@ Pre-processing
 
   - inter subject co-registration
     - linear and nonlinear
+      - rigid - 6 parameters, 3 translation, 3 rotation
+      - affine - 12 parameters
+      - show 4x4 transform matrix and talk about the components
+      - non-linear co-registration
+        - talk about the liberties added compared to the linear case
+        - ultimately everything fits everything -> we need constraints
+        - in our case, one such constraint could be nearby objects should remain nearby objects after transform
+    - also would like to perform transformations backwards without computing the transforms again
+      - 4x4 matrix transpose is the inverse
+      - non-linear mapping is not that easy to invert? -> some mechanism needed; estimation of both directions simultaneously?
     - metrics CC & MI
+      - cross correlation - same to same - show images and scatter plots
+      - mutual information - different to different - show images, talk about common information, show scatterplot -> no correlation, show joint information scatter -> correlation
     - how does this simplify to intra-subject?
+      - only rigid needed?
 
   - MRI (time-)series preprocessing
     - fMRI & dMRI
