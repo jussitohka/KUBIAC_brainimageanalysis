@@ -73,29 +73,29 @@ Individual ParaMaps -> voxel-based group statistics (different groups, co-variat
 
 Day 1 - May 17th
 9-11:00
-9:00 Start - 15 min - Jussi
-  Present the process as a pipeline
-9:15 Intro to MRI imaging - 30 min - Mikko Nissi
-9:50 Break - 10 min
-10:00 Pre-processing intra-subject coregistration - 1 h 00 min
-11:00 Lunch - 1 h
-12:00 Intra- & inter-subject coregistrations - with images - 50 min
-12:50 Break - 10 min
-13:00 (time-)series-specific adaptations - fMRI + dMRI (slice-timing, eddy current, motion correction) 50-60 min
+9:00 Start - Jussi
+  Present the process as a pipeline - Jussi
+9:15 Intro to MRI imaging - Mikko Nissi
+9:50 Break
+10:00 Pre-processing intra-subject coregistration - Raimo
+11:00 Lunch
+12:00 Intra- & inter-subject coregistrations - with images - Raimo
+12:50 Break
+13:00 (time-)series-specific adaptations - fMRI + dMRI (slice-timing, eddy current, motion correction) - Raimo
 14:00 End of the day
 
 Day 2 - May 24th
-9:00 Present the process as a pipeline
-9:05 Neuro-anatomy - 30 min
-9:35 Segmentation + stereotactic space - 45 min
+9:00 Present the process as a pipeline - Raimo
+9:05 Neuro-anatomy - Sandra
+9:35 Segmentation + stereotactic space - Jussi
 10:20 Break - 10 min
-10:30 Individual maps - 60 min
-  - how to produce dMRI maps - 20 min
-  - how to produce fMRI maps - 40 min (incl. filtering?)
+10:30 Individual maps
+  - how to produce dMRI maps - 20 min - Raimo
+  - how to produce fMRI maps - 40 min (incl. filtering?) - Jussi
 11:30 Lunch - 1h
-12:30 Connectivity - 15 min teaser?
+12:30 Connectivity - 15 min teaser? - Jussi?
   - maps
   - network
-12:45 Group statistics of the individual maps
-13:30 Application to data - anatomic + fMRI + dMRI
+12:45 Group statistics of the individual maps - Jussi
+13:45 Application to different data - anatomic + fMRI + dMRI - Jussi & Raimo
 14:00 End of the day
