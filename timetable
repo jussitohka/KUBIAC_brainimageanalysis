@@ -1,11 +1,11 @@
-Introduction (with a light touch)
+Introduction (with a light touch) - Mikko Nissi
 
   - MRI acquisition, its parameters, and the different results
   - gradient & spin echo?
   - k-space (what is it, how is it filled (in a simple case))
   - reconstruction (only the idea with inverse Fourier)
 
-Pre-processing
+Pre-processing - Raimo
 
   - show the whole pre-processing pipeline here
 
