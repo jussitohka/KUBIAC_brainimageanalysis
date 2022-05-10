@@ -7,9 +7,9 @@
 ### Main packages
 
 | Name   | Link | Excels at | License | Limitations |
--------------------------------------
-| SPM   |      |           |          |             |
-| FSL   |      |           |          |             |
+|--------|------|-----------|---------|-------------|
+| SPM    |      |           |         |             |
+| FSL    |      |           |         |             |
 
 ### Some other packages/tools
 
