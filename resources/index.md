@@ -8,17 +8,19 @@ SPM documentation and books: https://www.fil.ion.ucl.ac.uk/spm/doc/ There are lo
 
 A very useful piece of lecture notes http://jpeelle.net/mri/ that nicely completements the previous ones oncentrating on structural MRI. 
 
+FSL https://open.win.ox.ac.uk/pages/fslcourse/website/ and Freesurfer https://surfer.nmr.mgh.harvard.edu/fswiki/FsTutorial/ courses are great resources on these partcular packages but also more generally. 
+
 ## Software
 
 ### Main packages
 
-| Name         | Link     | Excels at | License | Limitations |
-|--------------|----------|-----------|---------|-------------|
-| SPM          |          |           |         |             |
-| FSL          |          |           |         |             |
-| Freesurfer   |          |           |         |             |
-| AFNI         |          |           |         |             |
-| Ants         |          |           |         |             |
+| Name         | Link                                         | Excels at | License | Limitations |
+|--------------|----------------------------------------------|-----------|---------|-------------|
+| SPM          | https://www.fil.ion.ucl.ac.uk/spm/software/  |           |         |             |
+| FSL          | https://fsl.fmrib.ox.ac.uk/fsl/fslwiki       |           |         |             |
+| Freesurfer   | https://surfer.nmr.mgh.harvard.edu/          |           |         |             |
+| AFNI         | https://afni.nimh.nih.gov/                   |           |         |             |
+| Ants         | http://stnava.github.io/ANTs/                |           |         |             |
 
 ### Some other packages/tools
 
