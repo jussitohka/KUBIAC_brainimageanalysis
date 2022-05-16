@@ -16,7 +16,7 @@ FSL https://open.win.ox.ac.uk/pages/fslcourse/website/ and Freesurfer https://su
 
 | Name         | Link                                         | Excels at | License | Limitations |
 |--------------|----------------------------------------------|-----------|---------|-------------|
-| SPM          | https://www.fil.ion.ucl.ac.uk/spm/software/  |           |         |             |
+| SPM          | https://www.fil.ion.ucl.ac.uk/spm/software/  | All around software toolbox with a GUI. Runs on top Matlab. Lots of toolboxes          |         |     |
 | FSL          | https://fsl.fmrib.ox.ac.uk/fsl/fslwiki       |           |         |             |
 | Freesurfer   | https://surfer.nmr.mgh.harvard.edu/          |           |         |             |
 | AFNI         | https://afni.nimh.nih.gov/                   |           |         |             |
