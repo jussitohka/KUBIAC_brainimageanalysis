@@ -16,15 +16,16 @@ FSL https://open.win.ox.ac.uk/pages/fslcourse/website/ and Freesurfer https://su
 
 | Name         | Link                                         | Excels at | License | Limitations |
 |--------------|----------------------------------------------|-----------|---------|-------------|
-| SPM          | https://www.fil.ion.ucl.ac.uk/spm/software/  | All around software toolbox with a GUI. Runs on top Matlab. Lots of toolboxes          |         |     |
-| FSL          | https://fsl.fmrib.ox.ac.uk/fsl/fslwiki       |           |         |             |
-| Freesurfer   | https://surfer.nmr.mgh.harvard.edu/          |           |         |             |
-| AFNI         | https://afni.nimh.nih.gov/                   |           |         |             |
-| Ants         | http://stnava.github.io/ANTs/                |           |         |             |
+| SPM          | https://www.fil.ion.ucl.ac.uk/spm/software/  | All around software toolbox with a GUI. Runs on top Matlab. Lots of toolboxes by various developers          | GNU GPL (open source, copyleft)        | Runs on top of Matlab    |
+| FSL          | https://fsl.fmrib.ox.ac.uk/fsl/fslwiki       | All around software toolbox with a GUI. Geared towards fMRI and DTI. Written in C++.           |        Free for academic use, not free for commercial use https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Licence |  Licence           |
+| Freesurfer   | https://surfer.nmr.mgh.harvard.edu/          | Software toolbox build around the idea of surface based processing. Widely used for structural MRI analyses          | Open source (miscellanous licence)   |             |
+| AFNI         | https://afni.nimh.nih.gov/                   | fMRI analysis          |  GNU GPL (open source, copyleft)      |             |
+| Ants         | http://stnava.github.io/ANTs/                | Registration          |  Open soure       |             |
 
 ### Some other packages/tools
 
 Nearly all software packages can be found here: https://www.nitrc.org/
+Insight toolkit https://itk.org/
 
 CAT12 Volbrain CIVET (and other MNI tools) Brainvoagager
 
