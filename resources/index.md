@@ -31,6 +31,7 @@ CAT12 Volbrain CIVET (and other MNI tools) Brainvoagager
 
 
 ## Atlases
+MNI atlases (human, monkey) http://nist.mni.mcgill.ca/atlases/
 
 ## (Open) Data
 
