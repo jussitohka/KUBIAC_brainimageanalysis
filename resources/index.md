@@ -25,9 +25,14 @@ FSL https://open.win.ox.ac.uk/pages/fslcourse/website/ and Freesurfer https://su
 ### Some other packages/tools
 
 Nearly all software packages can be found here: https://www.nitrc.org/
+
 Insight toolkit https://itk.org/
 
-CAT12 Volbrain CIVET (and other MNI tools) Brainvoagager
+CAT12 http://www.neuro.uni-jena.de/cat/ 
+
+Volbrain https://www.volbrain.upv.es/
+ 
+Brainvoagager https://www.brainvoyager.com/
 
 
 ## Atlases
