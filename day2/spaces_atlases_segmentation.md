@@ -11,5 +11,22 @@ The idea of using a three-dimensional Cartesian coordinate space as a common spa
 
 Note that the template represents a specific MRI modality while an atlas is independent of the imaging modality.  
 
-**Stereotactic coordinates** or **standardized coordinates** 
+**Stereotactic coordinates** or **standard coordinates** are voxel coordinates (x,y,z) in a standard or stereotactic space. The location of (x,y,z) standard coordinates are expected to match between any two images (at least after Gaussian smoothing).
+
 ![registration](https://user-images.githubusercontent.com/6709791/168842588-2b1f08d1-863c-4408-990f-90c9ec3e6655.png) From Introduction to MRI by Jonathan Peelle,  licensed under a Creative Commons BY-NC-SA 3.0 License http://jpeelle.net/mri/index.html
+
+Be aware that there is a lot of fuzziness in the usage of the terminology related 
+
+Registration of the functional MRI to a template (1-step,2-step or 3-step). [Picture]
+
+# MRI segmentation
+
+**Skull stripping or brain extraction** refers to the removal of the skull (and other non-brain tissue) usually from T1-weighted MRI. Lots of research has been done here.
+
+[picture here]
+
+**Tissue classification** refers to the classification of voxels to the three main tissue classes (white matter, gray matter, and cerebrospinal fluid).
+
+[picture here]
+
+**Region segmentation** refers to the 
