@@ -37,4 +37,4 @@ Tissue classified images (in the standard space) can be readily used for *voxel-
 
 [picture here]
 
-**Region segmentation** refers to the segmentation of brain into a regions or volumes of interest. This can be done by probagating atlas labels into the image-to-be-segmented after (nonlinear) registration
+**Region segmentation** refers to the segmentation of brain into a regions or volumes of interest. This can be done by probagating atlas labels into the image-to-be-segmented after (nonlinear) registration. However, it might well be that using a single template does not lead to a good enough segmentation, but a majority vote across several template registrations leads to improvements. Convolutional neural network approaches work well, even with a relatively small number of training examples.    
