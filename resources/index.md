@@ -36,6 +36,11 @@ Brainvoagager https://www.brainvoyager.com/ A commercial all around package
 
 fMRIprep https://fmriprep.org/en/stable/ functional magnetic resonance imaging (fMRI) data preprocessing pipeline that is designed to provide an easily accessible, state-of-the-art interface that is robust to variations in scan acquisition protocols and that requires minimal user input, while providing easily interpretable and comprehensive error and output reporting
 
+BrkRaw https://github.com/BrkRaw/brkraw - a Python-based tool to converting Bruker ParaVision acquisitions to NIfTI format. A two-pass structure: 1) first pass produces an Excel file that the user can correct, 2) the second pass converts the data according to the corrected Excel file. The converted file structure follows BIDS (https://bids.neuroimaging.io/) format. - GNU GPL v3.0
+
+Bruker2nifti https://github.com/SebastianoF/bruker2nifti - a Python-based tool to converting Bruker ParaVision acquisitions to NIfTI format. - MIT Licence
+
+Dicom2nifti https://github.com/icometrix/dicom2nifti - a Python-based tool to converting DICOM to NIfTI format. - MIT Licence 
 
 ## Atlases
 MNI atlases (human, monkey) http://nist.mni.mcgill.ca/atlases/
