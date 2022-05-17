@@ -39,6 +39,9 @@ Registration of the functional MRI to a template (1-step,2-step or 3-step). [Pic
 
 [picture here]
 
+![image](https://user-images.githubusercontent.com/6709791/168880453-7a8e9717-c3a7-4de2-9115-3440d517cd25.png)
+*Figure from Tohka 2014 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4241492/. Used with permission.*
+
 Tissue classified images (in the standard space) can be readily used for *voxel-based morphometry*. Tissue classification can be continued in the extraction of the cortical surfaces and to the measurement of cortical thickness. 
 
 [picture here]
