@@ -24,6 +24,9 @@ Registration of the functional MRI to a template (1-step,2-step or 3-step). [Pic
 **Skull stripping or brain extraction** refers to the removal of the skull (and other non-brain tissue) usually from T1-weighted MRI. Lots of research has been done here.
 
 [picture here]
+![image](https://user-images.githubusercontent.com/6709791/168875044-e8882ed9-b0c8-4188-9103-0a667c0e7f60.png) MU-Net https://www.sciencedirect.com/science/article/pii/S1053811921000112?via%3Dihub
+
+![image](https://user-images.githubusercontent.com/6709791/168876381-7284d144-fccd-452b-83fb-f8045ae83a76.png) SythnStrip https://arxiv.org/abs/2203.09974
 
 **Tissue classification** refers to the classification of voxels to the three main tissue classes (white matter, gray matter, and cerebrospinal fluid).
 
