@@ -47,3 +47,6 @@ Tissue classified images (in the standard space) can be readily used for *voxel-
 [picture here]
 
 **Region segmentation** refers to the segmentation of brain into a regions or volumes of interest. This can be done by probagating atlas labels into the image-to-be-segmented after (nonlinear) registration. However, it might well be that using a single template does not lead to a good enough segmentation, but a majority vote across several template registrations leads to improvements. Convolutional neural network approaches work well, even with a relatively small number of training examples.    
+
+![image](https://user-images.githubusercontent.com/6709791/168890882-f2631eae-1e2e-42c3-8f46-3baa59ba6f05.png)
+*Figure from De Feo et al. 2021 https://www.sciencedirect.com/science/article/pii/S1053811921000112?via%3Dihub CC-BY 4.0. Example of MU-Net based segmentation of mouse cortex (blue), ventricles (green), striati (red) , and hippocampi (yellow).*
