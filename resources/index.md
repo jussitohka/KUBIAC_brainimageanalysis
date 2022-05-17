@@ -26,13 +26,15 @@ FSL https://open.win.ox.ac.uk/pages/fslcourse/website/ and Freesurfer https://su
 
 Nearly all software packages can be found here: https://www.nitrc.org/
 
-Insight toolkit https://itk.org/
+Insight toolkit https://itk.org/  is an open-source, cross-platform library that provides developers with an extensive suite of software tools for image analysis. Not brain imaging specific. 
 
-CAT12 http://www.neuro.uni-jena.de/cat/ 
+CAT12 http://www.neuro.uni-jena.de/cat/ A widely used SPM12 add-on for registration, segmentation, and analysis of structural MRI data (T1-weighted). Many favor this package over SPM12 native tools for the purpose.    
 
-Volbrain https://www.volbrain.upv.es/
+Volbrain https://www.volbrain.upv.es/ An online tool for robust segmentation and volumetry
  
-Brainvoagager https://www.brainvoyager.com/
+Brainvoagager https://www.brainvoyager.com/ A commercial all around package
+
+fMRIprep https://fmriprep.org/en/stable/ functional magnetic resonance imaging (fMRI) data preprocessing pipeline that is designed to provide an easily accessible, state-of-the-art interface that is robust to variations in scan acquisition protocols and that requires minimal user input, while providing easily interpretable and comprehensive error and output reporting
 
 
 ## Atlases
