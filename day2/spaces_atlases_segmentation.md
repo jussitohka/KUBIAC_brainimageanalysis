@@ -13,7 +13,8 @@ Note that the template represents a specific MRI modality while an atlas is inde
 
 **Stereotactic coordinates** or **standard coordinates** are voxel coordinates (x,y,z) in a standard or stereotactic space. The location of (x,y,z) standard coordinates are expected to match between any two images (at least after Gaussian smoothing).
 
-![registration](https://user-images.githubusercontent.com/6709791/168842588-2b1f08d1-863c-4408-990f-90c9ec3e6655.png) From Introduction to MRI by Jonathan Peelle,  licensed under a Creative Commons BY-NC-SA 3.0 License http://jpeelle.net/mri/index.html
+![registration](https://user-images.githubusercontent.com/6709791/168842588-2b1f08d1-863c-4408-990f-90c9ec3e6655.png) 
+*Figure from Introduction to MRI by Jonathan Peelle,  licensed under a Creative Commons BY-NC-SA 3.0 License http://jpeelle.net/mri/index.html*
 
 Be aware that there is a lot of fuzziness in the usage of the terminology related 
 
