@@ -10,3 +10,5 @@ The idea of using a three-dimensional Cartesian coordinate space as a common spa
 **Template** is an image that is representative of the atlas and provides a target to which individual images can be aligned. 
 
 Note that the template represents a specific MRI modality while an atlas is independent of the imaging modality.  
+
+** Stereotactic coordinates ** 
