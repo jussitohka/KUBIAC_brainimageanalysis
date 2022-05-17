@@ -11,4 +11,4 @@ The idea of using a three-dimensional Cartesian coordinate space as a common spa
 
 Note that the template represents a specific MRI modality while an atlas is independent of the imaging modality.  
 
-** Stereotactic coordinates ** 
+**Stereotactic coordinates** or **standardized coordinates** 
