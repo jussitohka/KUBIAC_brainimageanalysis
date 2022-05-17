@@ -4,7 +4,7 @@ follows fMRI Data analysis handbook
 
 ## Temporal filtering
 
-## Prewhitening 
+## Prewhitening g
 
 ## Statistical modeling
 
