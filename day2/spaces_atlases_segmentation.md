@@ -38,14 +38,13 @@ Registration of the functional MRI to a template (1-step,2-step or 3-step). [Pic
 
 *Bias field correction* and *partial volume effect* are important considerations here. High-resolution T1-weighted images show broad variation in their intensity, due to inhomogeneities in the excitation of the head caused by a number of factors. It must be corrected before or jointly with tissue classification. Partial volume effect refers to the phenomenon that each voxel can contain (and typically does) multiple tissue types. There are numerous ways to take this into account during the segmentation.   
 
-[picture here]
-
 ![image](https://user-images.githubusercontent.com/6709791/168880453-7a8e9717-c3a7-4de2-9115-3440d517cd25.png)
 *Figure from Tohka 2014 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4241492/. Used with permission.*
 
 Tissue classified images (in the standard space) can be readily used for *voxel-based morphometry*. Tissue classification can be continued in the extraction of the cortical surfaces and to the measurement of cortical thickness. 
 
-[picture here]
+![image](https://user-images.githubusercontent.com/6709791/168894936-abaeb531-bf17-485f-b9df-0c4f817962fc.png) Figure from Hutton et al 2008 https://doi.org/10.1016/j.neuroimage.2008.01.027 CC-BY 3.0. 
+
 
 **Region segmentation** refers to the segmentation of brain into a regions or volumes of interest. This can be done by probagating atlas labels into the image-to-be-segmented after (nonlinear) registration. However, it might well be that using a single template does not lead to a good enough segmentation, but a majority vote across several template registrations leads to improvements. Convolutional neural network approaches work well, even with a relatively small number of training examples.    
 
