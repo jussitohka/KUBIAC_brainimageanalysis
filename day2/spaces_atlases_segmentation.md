@@ -33,7 +33,8 @@ Registration of the functional MRI to a template (1-step,2-step or 3-step). [Pic
 
 **Tissue classification** refers to the classification of voxels to the three main tissue classes (white matter, gray matter, and cerebrospinal fluid).
 
-[picture here]
+![image](https://user-images.githubusercontent.com/6709791/168891576-47a1309a-1278-46b7-b307-b11bfc20bc68.png)
+*Figure from Tohka 2014 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4241492/. Used with permission.*
 
 *Bias field correction* and *partial volume effect* are important considerations here. High-resolution T1-weighted images show broad variation in their intensity, due to inhomogeneities in the excitation of the head caused by a number of factors. It must be corrected before or jointly with tissue classification. Partial volume effect refers to the phenomenon that each voxel can contain (and typically does) multiple tissue types. There are numerous ways to take this into account during the segmentation.   
 
