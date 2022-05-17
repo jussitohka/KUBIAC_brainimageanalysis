@@ -32,7 +32,7 @@ CAT12 http://www.neuro.uni-jena.de/cat/ A widely used SPM12 add-on for registrat
 
 Volbrain https://www.volbrain.upv.es/ An online tool for robust segmentation and volumetry
  
-Brainvoagager https://www.brainvoyager.com/ A commercial all around package
+Brainvoyager https://www.brainvoyager.com/ A commercial all around package
 
 fMRIprep https://fmriprep.org/en/stable/ functional magnetic resonance imaging (fMRI) data preprocessing pipeline that is designed to provide an easily accessible, state-of-the-art interface that is robust to variations in scan acquisition protocols and that requires minimal user input, while providing easily interpretable and comprehensive error and output reporting
 
