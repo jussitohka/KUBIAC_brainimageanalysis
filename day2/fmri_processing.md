@@ -8,5 +8,7 @@ follows fMRI Data analysis handbook
 
 ## Statistical modeling
 
+$$X = Y \beta $$
+
 ## Resting state fMRI
 
