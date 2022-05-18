@@ -1,75 +1,3 @@
-Introduction (with a light touch) - Mikko Nissi
-
-  - MRI acquisition, its parameters, and the different results
-  - gradient & spin echo?
-  - k-space (what is it, how is it filled (in a simple case))
-  - reconstruction (only the idea with inverse Fourier)
-
-Pre-processing - Raimo
-
-  - show the whole pre-processing pipeline here
-
-  - inter subject co-registration
-    - linear and nonlinear
-      - rigid - 6 parameters, 3 translation, 3 rotation
-      - affine - 12 parameters
-      - show 4x4 transform matrix and talk about the components
-      - non-linear co-registration
-        - talk about the liberties added compared to the linear case
-        - ultimately everything fits everything -> we need constraints
-        - in our case, one such constraint could be nearby objects should remain nearby objects after transform
-    - also would like to perform transformations backwards without computing the transforms again
-      - 4x4 matrix transpose is the inverse
-      - non-linear mapping is not that easy to invert? -> some mechanism needed; estimation of both directions simultaneously?
-    - metrics CC & MI
-      - cross correlation - same to same - show images and scatter plots
-      - mutual information - different to different - show images, talk about common information, show scatterplot -> no correlation, show joint information scatter -> correlation
-    - how does this simplify to intra-subject?
-      - only rigid needed?
-
-  - MRI (time-)series preprocessing
-    - fMRI & dMRI
-      - series of 3D volumes
-      - fMRI: blood oxygen-induced changes in the time-series
-      - dMRI: diffusion sensitizing gradient-induced differences in the volumes
-      - show in video
-    - if the series contain subject motion, voxel (time-)series are not reliable
-    - motion correction (with references to co-reg; rigid w CC-type metric)
-      - rigid co-reg if no acquisition-induced distortions
-      - video of pre and post
-    - fMRI specific: slice-timing
-      - 2D acquisitions - if slices are 
-    - dMRI specific: eddy current correction
-      - gradient changes induce eddy currents that can be corrected with specialiced algorigthms
-      - any way to show the distortions?
-    
-    - smoothing
-      - to improve SNR in the voxels
-      - gaussian kernel -> distance-weighted average
-      - should not be used if ROIs used
-
-  - show the whole pre-processing pipeline here
-    - how does the process look like (when using the tools presented earlier)
-       - show with images & videos
-       - voxel time-series before and after the process?
-
-Processing to produce parametric maps from the data
-  - time-series analyses -> activation maps; ICA-maps
-  - DTI fitting -> FA, MD, ...
-    - tensor model - ellipsoid
-    - eigen decomposition -> eigenvalues and vectors
-    - eigenvalues -> parametric maps FA, MD show these
-
-
-Analyses
-
-Connectivity - functional (network of coehrent something) + diffusion (tractographic projection of local orientation distributions
-
-Statistics
-
-Individual fMRI data -> individual parametric map(s)
-
-Individual ParaMaps -> voxel-based group statistics (different groups, co-variates, repeated-measures,)
 
 Day 1 - May 17th
 9-11:00
@@ -92,14 +20,13 @@ Day 2 - May 24th
 10:20 Break - 10 min
 10:30 Individual maps
   - T1 maps (human) - 10 min
-  - how to produce dMRI maps - 10 min - Raimo
   - how to produce fMRI maps - 30 min (incl. filtering?) - Jussi
   - image formats
   - available software
 11:30 Lunch - 1h
-12:30 Connectivity - 15 min teaser? - Jussi?
+12:30 Connectivity - 15 min teaser - Raimo
   - maps
   - network
 12:45 Group statistics of the individual maps - Jussi
-13:45 Application to different data - anatomic + fMRI + dMRI - Jussi & Raimo
+13:45 Demonstration of fMRI stimulus paradigm statistical analysis using FSL - Raimo
 14:00 End of the day
