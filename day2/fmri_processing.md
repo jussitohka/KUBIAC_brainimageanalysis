@@ -1,5 +1,7 @@
 # fMRI processing into subject-specific statistical maps
-follows fMRI Data analysis handbook
+
+This follows largely *Handbook of functional MRI data analysis* by Russell Poldrack, Jeanette Mumford and Thomas Nichols.
+
 ## The BOLD Signal
 
 The goal of task-based fMRI data analysis is to analyze each voxel’s time series to see whether the BOLD (blood oxygenation level dependent) signal changes in response to some manipulation. In principle, we want to look how strongly the voxel time series correlates with the manipulation (task).  However, there are several issues to take into account such as  the BOLD signal arising from the interplay of blood ﬂow, blood volume, and blood oxygenation in response to changes in neuronal activity - i.e. being an indirect measure of neural activity. Therefore , the analysis tool is the general linear model (GLM), where the BOLD time series plays the role of dependent variable, and the independent variables in the model reﬂect the expected BOLD stimulus timecourses.
@@ -32,4 +34,4 @@ This has been about task-based fMRI, where we study changes in the brain activit
 
 ## About registration
 
-Note that we need to register the individual t-maps to common template to do group statistics. There are 1-step, 2-step,and 3-step strategies to this.  See Figure 4.3 from page 59 of fMRI data analysis handbook. 
+Note that we need to register the individual t-maps to common template to do group statistics. There are 1-step, 2-step,and 3-step strategies to this.  See Figure 4.3 from page 59 of *Handbook of functional MRI data analysis* by Russell Poldrack, Jeanette Mumford and Thomas Nichols.
