@@ -53,7 +53,7 @@ We usually control multiple comparisons based on one of two criteria (family-wis
 
 **Permutation tests for FWE** <img src="https://render.githubusercontent.com/render/math?math=FWER = P(FWE) = P(One or more voxels \geq u|H_0) = P(max voxel \geq u|H_0) ">. This means that running a permutation test with max-statistic gives a FWE control! The same is true for cluster-level inference. This is convenient! However, makes sure that the exchangeability holds.  
 
-**Alternatives to voxel and cluster-level inference** The threshold-free cluster enhancement (TFCE) approach integrates cluster information into voxel-wise statistical inference to enhance detectability of neuroimaging signal. Smith and Nichols 2009 https://doi.org/10.1016/j.neuroimage.2008.03.061 .
+**Alternatives to voxel and cluster-level inference** The threshold-free cluster enhancement (TFCE) approach integrates cluster information into voxel-wise statistical inference to enhance detectability of neuroimaging signal. Smith and Nichols 2009 https://doi.org/10.1016/j.neuroimage.2008.03.061 . If you like videos: https://www.youtube.com/watch?v=q4KDRLkZ69w
 
 
 See also https://courses.lsa.umich.edu/fmri-training-course/wp-content/uploads/sites/17/2019/08/2_wednesday_multiple_comparisons.pdf
