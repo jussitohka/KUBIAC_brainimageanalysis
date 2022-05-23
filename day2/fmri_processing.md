@@ -18,8 +18,8 @@ There are variations how different analysis packages implement these steps and w
 ![image](https://user-images.githubusercontent.com/6709791/168901430-f996562c-e85a-4d9c-918f-e388e2b734ad.png)
 *Figure from Monti 2011 https://doi.org/10.3389/fnhum.2011.00028*
 
-We can write the GLM 
-<img src="https://render.githubusercontent.com/render/math?math=Y = X\beta \oplus \epsilon">
+We can write the GLM as
+<img src="https://render.githubusercontent.com/render/math?math=Y = X\beta \oplus \epsilon"> , where Y is the BOLD time series, X is the design matrix,<img src="https://render.githubusercontent.com/render/math?math=\beta"> is the vector of parameter estimates, <img src="https://render.githubusercontent.com/render/math?math=\oplus"> is + (cannot write the ordinary + in Equations in here for some reason, looking into it), <img src="https://render.githubusercontent.com/render/math?math=\epsilon"> is the error term (normally distributed, zero mean, with and covariance sV).     
 
 ## Resting state fMRI
 
