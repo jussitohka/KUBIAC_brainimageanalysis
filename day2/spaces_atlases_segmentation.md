@@ -60,3 +60,6 @@ Tissue classified images (in the standard space) can be readily used for *voxel-
 **Tensor-based morphometry** uses gradients of the deformation fields to standard template to infer regional differenses. Deformation fields encode the relative positions of different brain structures, but local shapes (such as volumes, lengths and areas) are encoded in their gradients (Jacobian matrix field). Various functions of these tensor-fields can be used to characterize shape differences. 
 
 **Cortical thickness** studies the local thickness of the cortical surface. Can be either surface or voxel-based. Can be extended to study cortical area or cortical WM/GM intensity contrast in T1-weighted images.
+
+![image](https://user-images.githubusercontent.com/6709791/169776836-0b6dfcff-14ba-467d-9c92-3fa50f55721e.png)*Deformation-based mrphometry. Figure from Mietchen and Gaser  https://doi.org/10.3389/neuro.11.025.2009 * 
+
