@@ -21,7 +21,17 @@ You can also watch: https://www.youtube.com/watch?v=mzAMZtUAY-M
 
 ## Inference and multiple comparisons correction
 
-The result of the previous step is a group level statistical map describing the size of studied effect. That is a lot of data to chew on. Typically, in the realm of the classical statistical analyses, we are interested in the questions like:  at which voxels patients response to the stimulus differs from that of controls or at which voxels controls have more gray matter than patients.  If we have a parametric      
+The result of the previous step is a group level statistical map describing the size of studied effect. That is a lot of data to chew on. Typically, in the realm of the classical statistical analyses, we are interested in the questions like:  at which voxels patients response to the stimulus differs from that of controls or at which voxels controls have more gray matter than patients.  The statistical maps have to be thresholded to draw conclusions. But where to put a threshold?   An example follows: ( https://neurovault.org/images/13166/ )
+
+Unthresholded statistical map:  
+![image](https://user-images.githubusercontent.com/6709791/169892655-131f26cb-c955-44c2-ba15-288d66354e7b.png) Figure Analysis of fMRI response to self-reported humor when watching comedy movies.   
+
+
+
+
+
+
+If we have a parametric      
 
 ## Statistical power
 
