@@ -35,7 +35,9 @@ Map thresholded at |Z| > 4
 
 Which one is correct? 
 
-We formulate a hypothesis test at each voxel, i.e., assign a p-value to a voxel. If our statistical maps are parametric (t, Z, or F typically), we can easily assign a p-value to each voxel.  But how the threshold the p-values? If we threshold at p < 0.05 when doing hundreds of thousand of hypothesis tests, a problem of multiple comparsions follows (Remember the dead salmon during the mental rotation task. )          
+We formulate a hypothesis test at each voxel, i.e., assign a p-value to a voxel. If our statistical maps are parametric (t, Z, or F typically), we can easily assign a p-value to each voxel.  But how the threshold the p-values? If we threshold at p < 0.05 when doing hundreds of thousand of hypothesis tests, a problem of multiple comparsions follows (Remember the dead salmon during the mental rotation task.)  If statistic image has 100,000 voxels, and we declare all voxels with p < 0.05 activated, then we end up with approximately 5000 false positives.  
+
+We usually control multiple comparisons based on one of two criteria (family-wise error rate (FWER) or false discovery rate (FDR) ) and one of two levels (voxel-level or cluster level). These can be in priciple combined in any way, but in practice FDR-control applies to the voxel level correction and FWER-correction to the cluster level.    
 
 ## Statistical power
 
