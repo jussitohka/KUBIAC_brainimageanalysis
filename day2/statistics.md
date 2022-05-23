@@ -26,7 +26,14 @@ The result of the previous step is a group level statistical map describing the 
 Unthresholded statistical map:  
 ![image](https://user-images.githubusercontent.com/6709791/169892655-131f26cb-c955-44c2-ba15-288d66354e7b.png) Figure Analysis of fMRI response to self-reported humor when watching comedy movies.   
 
+Map thresholded at |Z| > 2:
 
+![image](https://user-images.githubusercontent.com/6709791/169894379-eaed166d-7f4e-4e31-9478-3a4f03c5324d.png)
+
+Map thresholded at |Z| > 4
+![image](https://user-images.githubusercontent.com/6709791/169894715-f9a08cc8-8125-4bbf-8078-af21e6b842b6.png)
+
+Which one is correct? 
 
 
 
