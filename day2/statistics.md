@@ -21,7 +21,11 @@ You can also watch: https://www.youtube.com/watch?v=mzAMZtUAY-M
 
 ## Inference and multiple comparisons correction
 
-The result of the previous step is a group level statistical map describing the size of studied effect. That is a lot of data to chew on. Typically, in the realm of the classical statistical analyses, we are interested in the questions like:  at which voxels patients response to the stimulus differs from that of controls or at which voxels controls have more gray matter than patients.  The statistical maps have to be thresholded to draw conclusions. But where to put a threshold?   An example follows: (See https://neurovault.org/images/13166/ , from Jääskeläinen et al 2016 http://doi.org/10.1038/srep27741 )
+The result of the previous step is a group level statistical map describing the size of studied effect. That is a lot of data to chew on. Typically, in the realm of the classical statistical analyses, we are interested in the questions like:  at which voxels patients response to the stimulus differs from that of controls or at which voxels controls have more gray matter than patients.  The statistical maps have to be thresholded to draw conclusions. But where to put a threshold? 
+
+**Note** We typically apply spatial smoothing to the parametric maps at some or several levels of the analysis.  This makes statistical maps more Gaussian (required by Random Field Theory) and helps with small misalighnments between individual subjects' data. 
+
+An example follows: (See https://neurovault.org/images/13166/ , from Jääskeläinen et al 2016 http://doi.org/10.1038/srep27741 )
 
 Unthresholded statistical map:  
 ![image](https://user-images.githubusercontent.com/6709791/169892655-131f26cb-c955-44c2-ba15-288d66354e7b.png) Statistical parametric maps of hemodynamic activity during first-time viewing of the movie clips as explained by self-rated humorousness in the GLM based analysis.  
@@ -43,9 +47,16 @@ We usually control multiple comparisons based on one of two criteria (family-wis
 
 **FDR** is the expected proportion of type I errors. If we control FDR at 0.05, it means that from our positive results (activation, null-hypothesis rejected) maximum 5% will be false in the long run. FDR is usually much more lenient criterion than FWE. 
 
-**Voxel-level-inference** tests each voxel separately for the evidence against null-hypothesis. Spatially most accurate.
+**Voxel-level-inference** tests each voxel separately for the evidence against null-hypothesis. Spatially most accurate, often not very sensitive. **Peak-level inference** is very similar but different.   
 
-**Cluster-level inference**. Here, we first threshold the test statistic image by some reasonable threshold (cluster forming threshold, usually thresholds like p = 0.001 are recommended for Random Field Theory) and extract continuos clusters (e.g., using 26-connectivity) and then sizes of the clusters (in voxels) are compared to the  critical cluster size threshold traditionally deducted from Random Field Theory.  
+**Cluster-level inference**. Here, we first threshold the test statistic image by some reasonable threshold (cluster forming threshold, usually thresholds like p = 0.001 are recommended for Random Field Theory) and extract continuos clusters (e.g., using 26-connectivity) and then sizes of the clusters (in voxels) are compared to the critical cluster size threshold, traditionally deducted from Random Field Theory.  
+
+**Permutation tests for FWE**
+
+**Alternatives to voxel and cluster-level inference**
+
+
+See also https://courses.lsa.umich.edu/fmri-training-course/wp-content/uploads/sites/17/2019/08/2_wednesday_multiple_comparisons.pdf
 
 ## Statistical power
 
