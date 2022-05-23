@@ -21,7 +21,7 @@ You can also watch: https://www.youtube.com/watch?v=mzAMZtUAY-M
 
 ## Inference and multiple comparisons correction
 
-The result of the previous step is a group level statistical map describing the size of studied effect. That is a lot of data to chew on. Typically, in the realm of the classical statistical analyses, we are interested in the questions like:  at which voxels patients response to the stimulys differs from that of controls.     
+The result of the previous step is a group level statistical map describing the size of studied effect. That is a lot of data to chew on. Typically, in the realm of the classical statistical analyses, we are interested in the questions like:  at which voxels patients response to the stimulus differs from that of controls or at which voxels controls have more gray matter than patients.  If we have a parametric      
 
 ## Statistical power
 
