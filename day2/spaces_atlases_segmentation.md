@@ -56,3 +56,7 @@ Tissue classified images (in the standard space) can be readily used for *voxel-
 **Voxel-based morphometry**  measures local concentrations of brain tissue, through tissue classified anatomical (usually T1-weighted) images. 
 
 **Deformation-based morphometry** spatially normalizes (i.e., non-linearly registers) the structural MR images of a number of subjects so that they all conform to the same stereotaxic (standard) space. Multivariate statistics are then applied to the parameters describing the estimated nonlinear deformations that ensue.
+
+**Tensor-based morphometry** uses gradients of the deformation fields to standard template to infer regional differenses. Deformation fields encode the relative positions of different brain structures, but local shapes (such as volumes, lengths and areas) are encoded in their gradients (Jacobian matrix field). Various functions of these tensor-fields can be used to characterize shape differences. 
+
+**Cortical thickness** studies the local thickness of the cortical surface. Can be either surface or voxel-based. Can be extended to study cortical area or cortical WM/GM intensity contrast in T1-weighted images.
