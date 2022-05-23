@@ -11,12 +11,15 @@ The goal of task-based fMRI data analysis is to analyze each voxel’s time seri
 1) The most obvious characteristic of noise in BOLD fMRI data is the presence of low-frequency drift, which is removed by high-pass filtering (in a voxel-by-voxel manner).
 2) The GLM  assumes that the data are not temporally autocorrelated and that the variance of the data is constant over observations. When these assumptions are violated, the inferences based on the GLM are biased and can result in an elevated false positive rate. Thus, we estimate and undo the correlation structure of the data. The current standard approach is to prewhiten the data to remove the temporal autocorrelation.  
 
+There are variations how different analysis packages implement these steps and what additional (time series) preprocessing there might be. 
+
 ## Statistical modeling
 
 ![image](https://user-images.githubusercontent.com/6709791/168901430-f996562c-e85a-4d9c-918f-e388e2b734ad.png)
 *Figure from Monti 2011 https://doi.org/10.3389/fnhum.2011.00028*
 
-<img src="https://render.githubusercontent.com/render/math?math=X = Y\beta">
+We can write the GLM 
+<img src="https://render.githubusercontent.com/render/math?math=Y = X\beta + \epsilon">
 
 ## Resting state fMRI
 
