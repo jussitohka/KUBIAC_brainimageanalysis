@@ -23,7 +23,7 @@ We can write the GLM as
 
 **Statistical contrasts:** The term constrast in terms of the GLMs refers to linear combinations of the elements of the parameter vector <img src="https://render.githubusercontent.com/render/math?math=\beta">. Constrasts allow to specify the hypotheses we would like to address, such as: is <img src="https://render.githubusercontent.com/render/math?math=\beta_1"> different from zero, is <img src="https://render.githubusercontent.com/render/math?math=\beta_1"> larger than <img src="https://render.githubusercontent.com/render/math?math=\beta_2"> and soforth. Mathematically, a contrast is vector c of the same length as the parameter vector <img src="https://render.githubusercontent.com/render/math?math=\beta">.  The distribution of <img src="https://render.githubusercontent.com/render/math?math=c\hat{\beta}"> (under GLM assumptions) is normal, and thus we get t-statistic
 
-<img src="https://render.githubusercontent.com/render/math?math=t=\frac{c\hat{\beta}}{sqrt{c(X*'X*)^{-1}c's}}">
+<img src="https://render.githubusercontent.com/render/math?math=t=\frac{c\hat{\beta}}{\sqrt{c(X*'X*)^{-1}c's}}">
 
 
 
