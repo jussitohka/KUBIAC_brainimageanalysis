@@ -21,10 +21,10 @@ You can also watch: https://www.youtube.com/watch?v=mzAMZtUAY-M
 
 ## Inference and multiple comparisons correction
 
-The result of the previous step is a group level statistical map describing the size of studied effect. That is a lot of data to chew on. Typically, in the realm of the classical statistical analyses, we are interested in the questions like:  at which voxels patients response to the stimulus differs from that of controls or at which voxels controls have more gray matter than patients.  The statistical maps have to be thresholded to draw conclusions. But where to put a threshold?   An example follows: ( https://neurovault.org/images/13166/ )
+The result of the previous step is a group level statistical map describing the size of studied effect. That is a lot of data to chew on. Typically, in the realm of the classical statistical analyses, we are interested in the questions like:  at which voxels patients response to the stimulus differs from that of controls or at which voxels controls have more gray matter than patients.  The statistical maps have to be thresholded to draw conclusions. But where to put a threshold?   An example follows: (See https://neurovault.org/images/13166/ , from Jääskeläinen et al 2016 http://doi.org/10.1038/srep27741 )
 
 Unthresholded statistical map:  
-![image](https://user-images.githubusercontent.com/6709791/169892655-131f26cb-c955-44c2-ba15-288d66354e7b.png) Figure Analysis of fMRI response to self-reported humor when watching comedy movies.   
+![image](https://user-images.githubusercontent.com/6709791/169892655-131f26cb-c955-44c2-ba15-288d66354e7b.png) Statistical parametric maps of hemodynamic activity during first-time viewing of the movie clips as explained by self-rated humorousness in the GLM based analysis.  
 
 Map thresholded at |Z| > 2:
 
@@ -35,10 +35,7 @@ Map thresholded at |Z| > 4
 
 Which one is correct? 
 
-
-
-
-If we have a parametric      
+We formulate a hypothesis test at each voxel, i.e., assign a p-value to a voxel. If our statistical maps are parametric (t, Z, or F typically), we can easily assign a p-value to each voxel.  But how the threshold the p-values? If we threshold at p < 0.05 when doing hundreds of thousand of hypothesis tests, a problem of multiple comparsions follows (Remember the dead salmon during the mental rotation task. )          
 
 ## Statistical power
 
