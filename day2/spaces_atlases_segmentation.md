@@ -1,9 +1,9 @@
 # Standard spaces and atlases 
 
-The idea of using a three-dimensional Cartesian coordinate space as a common space for different brains was proposed by the neurosurgeon Jean Talairach. He suggested to use 3-D coordinate system of the human brain to map the location of brain structures independent from individual differences in the size and overall shape of the brain. The Talairach coordinate system is defined based on anatomical landmarks (the anterior commissure (AC), and posterior commissure (PC), the midline sagittal plane, and the exterior boundaries of the brain).  As Talairach space (and the coordinate system) was based on a single post-mortem brain, it is now largely replaced by MNI coordinate system and associated atlases. (See  xxx more information) 
+The idea of using a three-dimensional Cartesian coordinate space as a common space for different brains was proposed by the neurosurgeon Jean Talairach. He suggested to use 3-D coordinate system of the human brain to map the location of brain structures independent from individual differences in the size and overall shape of the brain. The Talairach coordinate system is defined based on anatomical landmarks (the anterior commissure (AC), and posterior commissure (PC), the midline sagittal plane, and the exterior boundaries of the brain).  As Talairach space (and the coordinate system) was based on a single post-mortem brain, it is now largely replaced by MNI coordinate system and associated atlases. See Devlin and Poldrack 2007 https://doi.org/10.1016/j.neuroimage.2006.09.055 https://www.bic.mni.mcgill.ca/~louis/stx_history.html http://brainmap.org/training/BrettTransform.html https://www.bic.mni.mcgill.ca/ServicesAtlases/ICBM152NLin2009
 
 ## Definitions
-(According to  fMRI handbook)
+(These definitions according to *Handbook of functional MRI data analysis* by Russell Poldrack, Jeanette Mumford and Thomas Nichols.
 
 **Atlas** is a guide to the location of anatomical features in a coordinate space
 
