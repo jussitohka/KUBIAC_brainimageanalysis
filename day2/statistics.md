@@ -8,7 +8,7 @@ The terms of fixed, random, and mixed effects have variable meanings in statisti
 
 In brain imaging, the mixed effects models account for both within-subject and between subject variabilities, i.e., the model for (a single group) is
 
-<img src="https://render.githubusercontent.com/render/math?math=_{ij} = d_{population} \oplus z_i \oplus \epsilon_{ij}"> ,
+<img src="https://render.githubusercontent.com/render/math?math=y_{ij} = d_{population} \oplus z_i \oplus \epsilon_{ij}"> ,
 
 where d is the population level parameter of actual interest. 
 
