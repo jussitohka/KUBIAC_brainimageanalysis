@@ -19,7 +19,9 @@ There are variations how different analysis packages implement these steps and w
 *Figure from Monti 2011 https://doi.org/10.3389/fnhum.2011.00028*
 
 We can write the GLM as
-<img src="https://render.githubusercontent.com/render/math?math=Y = X\beta \oplus \epsilon"> , where Y is the BOLD time series, X is the design matrix,<img src="https://render.githubusercontent.com/render/math?math=\beta"> is the vector of parameter estimates, <img src="https://render.githubusercontent.com/render/math?math=\oplus"> is + (cannot write the ordinary + in Equations in here for some reason, looking into it), <img src="https://render.githubusercontent.com/render/math?math=\epsilon"> is the error term (normally distributed, zero mean, with and covariance sV). For GLM to be optimal/valid, V should be an identity matrix. The pre-whitening finds a matrix W so that WVW' = I and the model becomes  <img src="https://render.githubusercontent.com/render/math?math=WY = WX\beta \oplus W\epsilon">, with independent errors.      
+<img src="https://render.githubusercontent.com/render/math?math=Y = X\beta \oplus \epsilon"> , where Y is the BOLD time series, X is the design matrix,<img src="https://render.githubusercontent.com/render/math?math=\beta"> is the vector of parameter estimates, <img src="https://render.githubusercontent.com/render/math?math=\oplus"> is + (cannot write the ordinary + in Equations in here for some reason, looking into it), <img src="https://render.githubusercontent.com/render/math?math=\epsilon"> is the error term (normally distributed, zero mean, with and covariance sV). For GLM to be optimal/valid, V should be an identity matrix. The pre-whitening finds a matrix W so that WVW' = I and the model becomes  <img src="https://render.githubusercontent.com/render/math?math=WY = WX\beta \oplus W\epsilon">, with independent errors.  Writing Y* = WY, X* = VX*,  <img src="https://render.githubusercontent.com/render/math?math=\epsilon* = V\epsilon">, we get the parameter estimates <img src="https://render.githubusercontent.com/render/math?math=\hat{\beta} = (X*'X*)^{-1} X^*'Y*"> 
+
+
 
 ## Resting state fMRI
 
