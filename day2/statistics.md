@@ -51,7 +51,7 @@ We usually control multiple comparisons based on one of two criteria (family-wis
 
 **Cluster-level inference**. Here, we first threshold the test statistic image by some reasonable threshold (cluster forming threshold, usually thresholds like p = 0.001 are recommended for Random Field Theory) and extract continuos clusters (e.g., using 26-connectivity) and then sizes of the clusters (in voxels) are compared to the critical cluster size threshold, traditionally deducted from Random Field Theory.  
 
-**Permutation tests for FWE**
+**Permutation tests for FWE** <img src="https://render.githubusercontent.com/render/math?math=FWER = P(FWE) = P(One or more voxels \geq u|H_0) = P(max voxel \geq u|H_0) "> . 
 
 **Alternatives to voxel and cluster-level inference**
 
