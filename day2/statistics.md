@@ -12,6 +12,10 @@ In brain imaging, the mixed effects models account for both within-subject and b
 
 where d is the population level parameter of actual interest, z_i is the subject specific mean (not interesting in its own right) and e_{ij} is the subject specific error term.  Note that the model can include additional mean terms modelling, e.g., the effects of gender. Typically, in statistics, this kind of mixed effects model can be easily written, however, since in brain imaging, there are typically an enormous number of voxels to be tested a 2-step summary statistics approach is used instead. 
 
+![image](https://user-images.githubusercontent.com/6709791/169844800-b2aa9eed-2402-4871-a64b-554536afa1db.png) 
+Figure from Maumet, Camille; Nichols, Thomas (2018): Validity of summary statistics-based mixed-effects group fMRI. figshare. Presentation. https://doi.org/10.6084/m9.figshare.6723851.v1  CC-BY-4.0. 
+
+
 In the simplest case, making a simplifying assumption of equal within subject variance, the 2-step strategy involves doing statistics on the first level estimates.     
 
 
