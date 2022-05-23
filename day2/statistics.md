@@ -17,7 +17,7 @@ In the simplest case, making a simplifying assumption of equal within subject va
 
 ## Inference and multiple comparisons correction
 
-The result of the previous step is a group level statistical map describing the size of studied effect  
+The result of the previous step is a group level statistical map describing the size of studied effect. That is a lot of data to chew on. Typically, in the realm of the classical statistical analyses, we are interested in the questions like:  at which voxels patients response to the stimulys differs from that of controls.     
 
 ## Statistical power
 
