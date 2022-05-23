@@ -19,7 +19,7 @@ There are variations how different analysis packages implement these steps and w
 *Figure from Monti 2011 https://doi.org/10.3389/fnhum.2011.00028*
 
 We can write the GLM 
-<img src="https://render.githubusercontent.com/render/math?math=Y = X\beta + \epsilon">
+<img src="https://render.githubusercontent.com/render/math?math=Y = X\beta \oplus \epsilon">
 
 ## Resting state fMRI
 
