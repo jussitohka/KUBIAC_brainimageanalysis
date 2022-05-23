@@ -23,12 +23,13 @@ We can write the GLM as
 
 **Statistical contrasts:** The term constrast in terms of the GLMs refers to linear combinations of the elements of the parameter vector <img src="https://render.githubusercontent.com/render/math?math=\beta">. Constrasts allow to specify the hypotheses we would like to address, such as: is <img src="https://render.githubusercontent.com/render/math?math=\beta_1"> different from zero, is <img src="https://render.githubusercontent.com/render/math?math=\beta_1"> larger than <img src="https://render.githubusercontent.com/render/math?math=\beta_2"> and soforth. Mathematically, a contrast is vector c of the same length as the parameter vector <img src="https://render.githubusercontent.com/render/math?math=\beta">.  The distribution of <img src="https://render.githubusercontent.com/render/math?math=c\hat{\beta}"> (under GLM assumptions) is normal, and thus we get t-statistic
 
-<img src="https://render.githubusercontent.com/render/math?math=t=\frac{c\hat{\beta}}{\sqrt{c(X*'X*)^{-1}c's}}">
+<img src="https://render.githubusercontent.com/render/math?math=t=\frac{c\hat{\beta}}{\sqrt{c(X*'X*)^{-1}c's}}">.
 
-
+This t-statistic map of each individual can be passed to the group level analyses. t-statistics are comparable between different subjects and different voxels.  Note that one an test simultaneously several contrasts using an F-test. 
 
 ## Resting state fMRI
+This has been about task-based fMRI, where we study changes in the brain activity in response to some external manipulation. Resting state fMRI is a bit different - we will have a teaser about resting state fMRI analysis after the lunch break.    
 
 ## About registration
 
-See Figure xx from yy
+Note that we need to register the individual t-maps to common template to do group statistics. There are 1-step, 2-step,and 3-step strategies to this.  See Figure 4.3 from page 59 of fMRI data analysis handbook. 
