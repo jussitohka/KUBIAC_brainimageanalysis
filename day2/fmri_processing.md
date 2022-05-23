@@ -2,6 +2,9 @@
 follows fMRI Data analysis handbook
 ## The BOLD Signal
 
+The goal of task-based fMRI data analysis is to analyze each voxel’s time series to see whether the BOLD (blood oxygenation level dependent) signal changes in response to some manipulation. 
+![z9j0010503411001](https://user-images.githubusercontent.com/6709791/169793057-1eceed36-68d8-4a7c-86df-45deb28ea4f5.jpeg) Figure from Demonet, Thierry and Cardebat. Physiological Reviews 2005 https://doi.org/10.1152/physrev.00049.2003 Copyright 2005 the American Physiological Society 
+
 ## Temporal filtering
 
 ## Prewhitening g
@@ -18,3 +21,6 @@ follows fMRI Data analysis handbook
 
 ## Resting state fMRI
 
+## About registration
+
+See Figure xx from yy
