@@ -51,7 +51,7 @@ Tissue classified images (in the standard space) can be readily used for *voxel-
 ![image](https://user-images.githubusercontent.com/6709791/168890882-f2631eae-1e2e-42c3-8f46-3baa59ba6f05.png)
 *Figure from De Feo et al. 2021 https://www.sciencedirect.com/science/article/pii/S1053811921000112?via%3Dihub CC-BY 4.0. Example of MU-Net based segmentation of mouse cortex (blue), ventricles (green), striati (red) , and hippocampi (yellow).*
 
-#Individual maps from anatomical images
+# Individual maps from anatomical images
 
 **Voxel-based morphometry**  measures local concentrations of brain tissue, through tissue classified anatomical (usually T1-weighted) images. 
 
