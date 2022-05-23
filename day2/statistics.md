@@ -45,7 +45,7 @@ We usually control multiple comparisons based on one of two criteria (family-wis
 
 **Voxel-level-inference** tests each voxel separately for the evidence against null-hypothesis. Spatially most accurate.
 
-**Cluster-level inference**. Here, we first threshold the test statistic image by some reasonable threshold (cluster forming threshold, usually thresholds like p = 0.001 are recommended for Random Field Theory) and extract continuos clusters (e.g., using 26-connectivity) and then  
+**Cluster-level inference**. Here, we first threshold the test statistic image by some reasonable threshold (cluster forming threshold, usually thresholds like p = 0.001 are recommended for Random Field Theory) and extract continuos clusters (e.g., using 26-connectivity) and then sizes of the clusters (in voxels) are compared to the  critical cluster size threshold traditionally deducted from Random Field Theory.  
 
 ## Statistical power
 
