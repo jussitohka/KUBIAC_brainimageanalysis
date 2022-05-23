@@ -37,7 +37,15 @@ Which one is correct?
 
 We formulate a hypothesis test at each voxel, i.e., assign a p-value to a voxel. If our statistical maps are parametric (t, Z, or F typically), we can easily assign a p-value to each voxel.  But how the threshold the p-values? If we threshold at p < 0.05 when doing hundreds of thousand of hypothesis tests, a problem of multiple comparsions follows (Remember the dead salmon during the mental rotation task.)  If statistic image has 100,000 voxels, and we declare all voxels with p < 0.05 activated, then we end up with approximately 5000 false positives.  
 
-We usually control multiple comparisons based on one of two criteria (family-wise error rate (FWER) or false discovery rate (FDR) ) and one of two levels (voxel-level or cluster level). These can be in priciple combined in any way, but in practice FDR-control applies to the voxel level correction and FWER-correction to the cluster level.    
+We usually control multiple comparisons based on one of two criteria (family-wise error rate (FWER) or false discovery rate (FDR) ) and one of two levels (voxel-level or cluster level). These can be in priciple combined in any way, but in practice FDR-control applies to the voxel level correction and FWER-correction to the cluster level. 
+
+**FWE** is the chance of one or more false positives anywhere in the image. When we use a valid procedure with FWE-level 0.05, there is at most a 5% chance of any false positives anywhere in the map. Equivalently, after thresholding with a valid FWE 0.05 threshold, we have 95% conﬁdence that there are no false positive voxels in the thresholded map. 
+
+**FDR** is the expected proportion of type I errors. If we control FDR at 0.05, it means that from our positive results (activation, null-hypothesis rejected) maximum 5% will be false in the long run. FDR is usually much more lenient criterion than FWE. 
+
+**Voxel-level-inference** tests each voxel separately for the evidence against null-hypothesis. Spatially most accurate.
+
+**Cluster-level inference**. Here, we first threshold the test statistic image by some reasonable threshold (cluster forming threshold, usually thresholds like p = 0.001 are recommended for Random Field Theory) and extract continuos clusters (e.g., using 26-connectivity) and then  
 
 ## Statistical power
 
