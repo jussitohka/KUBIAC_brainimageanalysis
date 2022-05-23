@@ -45,15 +45,15 @@ We usually control multiple comparisons based on one of two criteria (family-wis
 
 **FWE** is the chance of one or more false positives anywhere in the image. When we use a valid procedure with FWE-level 0.05, there is at most a 5% chance of any false positives anywhere in the map. Equivalently, after thresholding with a valid FWE 0.05 threshold, we have 95% conﬁdence that there are no false positive voxels in the thresholded map. 
 
-**FDR** is the expected proportion of type I errors. If we control FDR at 0.05, it means that from our positive results (activation, null-hypothesis rejected) maximum 5% will be false in the long run. FDR is usually much more lenient criterion than FWE. 
+**FDR** is the expected proportion of type I errors. If we control FDR at 0.05, it means that from our positive results (activation, null-hypothesis rejected) maximum 5% will be false in the long run. FDR is usually much more lenient criterion than FWE. Typically computed by Benjamini-Hochberg procedure, which is quite conservative if the true number of positive tests is large.   
 
 **Voxel-level-inference** tests each voxel separately for the evidence against null-hypothesis. Spatially most accurate, often not very sensitive. **Peak-level inference** is very similar but different.   
 
 **Cluster-level inference**. Here, we first threshold the test statistic image by some reasonable threshold (cluster forming threshold, usually thresholds like p = 0.001 are recommended for Random Field Theory) and extract continuos clusters (e.g., using 26-connectivity) and then sizes of the clusters (in voxels) are compared to the critical cluster size threshold, traditionally deducted from Random Field Theory.  
 
-**Permutation tests for FWE** <img src="https://render.githubusercontent.com/render/math?math=FWER = P(FWE) = P(One or more voxels \geq u|H_0) = P(max voxel \geq u|H_0) ">. This means that running a permutation test with max-statistic gives a FWE control! The same is true for cluster-level inference. This is convenient! However, makes sure that exchangeability holds.  
+**Permutation tests for FWE** <img src="https://render.githubusercontent.com/render/math?math=FWER = P(FWE) = P(One or more voxels \geq u|H_0) = P(max voxel \geq u|H_0) ">. This means that running a permutation test with max-statistic gives a FWE control! The same is true for cluster-level inference. This is convenient! However, makes sure that the exchangeability holds.  
 
-**Alternatives to voxel and cluster-level inference**
+**Alternatives to voxel and cluster-level inference** The threshold-free cluster enhancement (TFCE) approach integrates cluster information into voxel-wise statistical inference to enhance detectability of neuroimaging signal. Smith and Nichols 2009 https://doi.org/10.1016/j.neuroimage.2008.03.061 .
 
 
 See also https://courses.lsa.umich.edu/fmri-training-course/wp-content/uploads/sites/17/2019/08/2_wednesday_multiple_comparisons.pdf
