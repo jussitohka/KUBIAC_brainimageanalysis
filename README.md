@@ -4,12 +4,20 @@
 
 Repository for the material of the KUBIAC brain image analysis course that took place 17th and 24th May 2022. 
 
-The material for the first day is located in the main directory. Check specifically the Jupyter notebook xxx 
+www.uef.fi/kubiac
+
+The material for the first day is located in the main directory. Check specifically the Jupyter notebook:
+
+pre_processing.ipynb
+
+Note that in order to video to work you may need to run the file in anaconda (or similar). 
 
 The material for the second day is in the directory "day2". The suggested order of going these through is:
 
 spaces_atlases_segmentation.md
+
 fmri_preprocessing.md
+
 statistics.md
 
 The guest lecturer's slides are located in the guest_lectures subdirectory. 
