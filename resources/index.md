@@ -44,6 +44,7 @@ Dicom2nifti https://github.com/icometrix/dicom2nifti - a Python-based tool to co
 
 ## Atlases
 MNI atlases (human, monkey) http://nist.mni.mcgill.ca/atlases/
+
 SIGMA atlas (rat) https://www.nitrc.org/projects/sigma_template
 ## (Open) Data
 
