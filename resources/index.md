@@ -54,3 +54,9 @@ SIGMA atlas (rat) https://www.nitrc.org/projects/sigma_template
 | A4         | https://a4study.org/          | Anti-Amyloid Treatment in Asymptomatic Alzheimer's study, various kinds of imaging and cognitive data, over 4000 participants |   Access to qualified scientists through an online application |
 | ADNIDOD    |  https://adni.loni.usc.edu/study-design/#collaborative-studies-container | Connections of TBI and PTSD and AD | Similar to ADNI |   
 | PPMI       | https://www.ppmi-info.org/    | Parkinnson's progression markers,  imaging (MRI, DATscan), motor and cognitive testing |  Access to qualified scientists through an online application |
+| ABIDE      | https://fcon_1000.projects.nitrc.org/indi/abide/ | Autism spectrum, anatomical and functional MRI| Registration and approval of terms of use |
+| ABCD       | https://abcdstudy.org/           | Development, 10000 participants, MRI, cognition, behviour    | Access through NDA, requires university level approval |                 
+| NIHPD      |                                  | Healthy development, multisequence MRI, cognition, behaviour | Access through NDA, requires university level approval |   
+| HCP        | https://www.humanconnectome.org/ | High-quality MRI from healthy volunteers | 
+| ATLAS (v2) | https://fcon_1000.projects.nitrc.org/indi/retro/atlas.html | Stroke lesion segmentation | Registration and approval of terms of use | 
+
