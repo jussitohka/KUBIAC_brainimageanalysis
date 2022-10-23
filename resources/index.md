@@ -47,5 +47,10 @@ MNI atlases (human, monkey) http://nist.mni.mcgill.ca/atlases/
 SIGMA atlas (rat) https://www.nitrc.org/projects/sigma_template
 ## (Open) Data
 
-| Name       |     Link | Description             |      Access conditions |
-|------------|----------|------------------------ |------------------------|
+| Name       |     Link                      | Description             |      Access conditions |
+|------------|-------------------------------|------------------------ |------------------------|
+| ADNI       |https://adni.loni.usc.edu/     | Various kinds of imaging, biomarker, clinical, genetic data on dementia and people-at-risk. ~ 2000 subjects,long follow-up | Access to qualified scientists through an online application |
+| AIBL       | https://aibl.csiro.au/        | Australian version of ADNI | Similar to ADNI |
+| A4         | https://a4study.org/          | Anti-Amyloid Treatment in Asymptomatic Alzheimer's study, various kinds of imaging and cognitive data, over 4000 participants |   Access to qualified scientists through an online application |
+| ADNIDOD    |  https://adni.loni.usc.edu/study-design/#collaborative-studies-container | Connections of TBI and PTSD and AD | Similar to ADNI |   
+| PPMI       | https://www.ppmi-info.org/    | Parkinnson's progression markers,  imaging (MRI, DATscan), motor and cognitive testing |  Access to qualified scientists through an online application |
