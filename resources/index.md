@@ -66,7 +66,9 @@ SIGMA atlas (rat) https://www.nitrc.org/projects/sigma_template
 ### Lists of data resources
 
 GitHub - meagmohit/EEG-Datasets: A list of all public EEG-datasets:  https://github.com/meagmohit/EEG-Datasets 
+
 E-brains datasets listing https://search.kg.ebrains.eu/?category=Dataset
+
 OpenNeuro dataset listing https://openneuro.org/ 
 
 
