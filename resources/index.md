@@ -63,3 +63,11 @@ SIGMA atlas (rat) https://www.nitrc.org/projects/sigma_template
 | SRPBS      | https://bicr-resource.atr.jp/srpbsts/ | SRPBS Traveling Subject MRI Dataset 9 traveling subjects collected at 9 sites | Registration and approval of terms of use | 
 | An et al   | https://zenodo.org/record/6379879#.Y1WNcHZBwuV | lesion segmentation on mouse MRI | zenodo, cc4 license | 
 
+### Lists of data resources
+
+GitHub - meagmohit/EEG-Datasets: A list of all public EEG-datasets:  https://github.com/meagmohit/EEG-Datasets 
+E-brains datasets listing https://search.kg.ebrains.eu/?category=Dataset
+OpenNeuro dataset listing https://openneuro.org/ 
+
+
+
